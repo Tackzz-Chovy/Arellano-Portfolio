@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Al John Chris H. Arellano">
+    <title>Al John Chris H. Arellano - Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Al John Chris H. Arellano</h1>
+    <p>2nd Year BSIT Student | Aspiring Front-End Developer</p>
+    <div class="profile-container">
+        <img src="TacksFormal.jpg" alt="Al John Chris H. Arellano" class="profile-img">
+    </div>
+</header>
+
+<nav>
+    <a href="#bio">Bio</a>
+    <a href="#skills">Skills</a>
+    <a href="#education">Education</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+    <a href="#stats">Stats</a>
+</nav>
+
+<div class="container">
+
+    <section id="bio" class="bio">
+        <h2>About Me</h2>
+        <p>Hi, I'm Al John Chris H. Arellano, a second-year BSIT student at the University of the Cordilleras. I am majoring in Web Development with a keen interest in front-end development. I am passionate about learning HTML, CSS, JavaScript, and exploring frameworks like React.js. I'm constantly seeking opportunities to expand my knowledge and improve my skills to build user-friendly and accessible websites. I am eager to contribute to the web development community and grow as a developer.</p>
+    </section>
+
+    <section id="skills" class="skills">
+        <h2>Skills</h2>
+        <ul>
+            <li><strong>Basic HTML and CSS</strong> - I can create simple, responsive web pages.</li>
+            <li><strong>Problem-Solving</strong> - Able to break down problems and come up with efficient solutions.</li>
+            <li><strong>Teamwork and Collaboration</strong> - Able to work effectively in team settings, sharing knowledge and working toward a common goal.</li>
+            <li><strong>Time Management</strong> - I manage my tasks efficiently to meet deadlines.</li>
+            <li><strong>Basic Programming (Python, C#)</strong> - Understanding of fundamental programming concepts and object-oriented programming.</li>
+        </ul>
+    </section>
+
+    <section id="education" class="education">
+        <h2>Education</h2>
+        <p><strong>University of the Cordilleras</strong> - 2nd Year BSIT Major in Web Development</p>
+        <p><strong>STI College Legazpi</strong> - High School Graduate</p>
+        <p><strong>Legazpi Elementary School</strong> - Elementary Graduate</p>
+    </section>
+
+    <section id="projects" class="projects">
+        <h2>Projects</h2>
+        <div class="project-links">
+            <p>Check out some of the projects I've worked on:</p>
+            <a href="https://arellanotributepage.vercel.app" target="_blank">Project 1 - Tribute Page</a>
+            <a href="https://arellanoproductlanding.vercel.app" target="_blank">Project 2 - Product Landing Page</a>
+            <a href="https://arellanosurveyform.vercel.app" target="_blank">Project 3 - Survey Form</a>
+            <a href="https://arellanoresume.vercel.app" target="_blank">Project 4 - Resume</a>
+            <a href="https://arellanotechdocs.vercel.app" target="_blank">Project 5 - Technical Documentation</a>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Me</h2>
+        <p>If you're interested in collaborating or hiring me, feel free to reach out!</p>
+        <form action="mailto:youremail@example.com" method="post" enctype="text/plain">
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Message:</label>
+            <textarea id="message" name="message" rows="4" required></textarea>
+
+            <button type="submit">Send Message</button>
+        </form>
+    </section>
+
+    <section id="stats" class="stats">
+        <h2>Portfolio Stats</h2>
+        <p>Here are the current stats of my portfolio:</p>
+        <div class="stat-container">
+            <p><strong>Likes:</strong> <span id="likes">0</span></p>
+            <p><strong>Shares:</strong> <span id="shares">0</span></p>
+        </div>
+        <div class="buttons-container">
+            <button id="like-btn">Like</button>
+            <button id="share-btn">Share</button>
+        </div>
+        <div class="rating-container">
+            <p><strong>Rate this Portfolio:</strong></p>
+            <div class="stars">
+                <span class="star" data-value="1">&#9733;</span>
+                <span class="star" data-value="2">&#9733;</span>
+                <span class="star" data-value="3">&#9733;</span>
+                <span class="star" data-value="4">&#9733;</span>
+                <span class="star" data-value="5">&#9733;</span>
+            </div>
+        </div>
+    </section>
+
+</div>
+
+<script src="index.js"></script>
+</body>
+</html>
